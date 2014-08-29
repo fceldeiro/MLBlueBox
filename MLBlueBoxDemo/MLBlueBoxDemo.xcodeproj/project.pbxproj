@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD3EB0E319B042D40056DF76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3EB0E219B042D40056DF76 /* Foundation.framework */; };
+		CD3EB0E519B042D40056DF76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3EB0E419B042D40056DF76 /* CoreGraphics.framework */; };
+		CD3EB0E719B042D40056DF76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3EB0E619B042D40056DF76 /* UIKit.framework */; };
+		CD3EB0ED19B042D40056DF76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD3EB0EB19B042D40056DF76 /* InfoPlist.strings */; };
+		CD3EB0EF19B042D40056DF76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3EB0EE19B042D40056DF76 /* main.m */; };
+		CD3EB0F319B042D40056DF76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3EB0F219B042D40056DF76 /* AppDelegate.m */; };
+		CD3EB0F619B042D40056DF76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3EB0F419B042D40056DF76 /* Main.storyboard */; };
+		CD3EB0F919B042D40056DF76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3EB0F819B042D40056DF76 /* ViewController.m */; };
+		CD3EB0FB19B042D40056DF76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3EB0FA19B042D40056DF76 /* Images.xcassets */; };
+		CD3EB10219B042D40056DF76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3EB10119B042D40056DF76 /* XCTest.framework */; };
+		CD3EB10319B042D40056DF76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3EB0E219B042D40056DF76 /* Foundation.framework */; };
+		CD3EB10419B042D40056DF76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3EB0E619B042D40056DF76 /* UIKit.framework */; };
+		CD3EB10C19B042D40056DF76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD3EB10A19B042D40056DF76 /* InfoPlist.strings */; };
+		CD3EB10E19B042D40056DF76 /* MLBlueBoxDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3EB10D19B042D40056DF76 /* MLBlueBoxDemoTests.m */; };
+		CD3EB11B19B0442C0056DF76 /* MLBlueBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3EB11A19B0442C0056DF76 /* MLBlueBoxView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD3EB10519B042D40056DF76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3EB0D719B042D40056DF76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3EB0DE19B042D40056DF76;
+			remoteInfo = MLBlueBoxDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD3EB0DF19B042D40056DF76 /* MLBlueBoxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLBlueBoxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3EB0E219B042D40056DF76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD3EB0E419B042D40056DF76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD3EB0E619B042D40056DF76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD3EB0EA19B042D40056DF76 /* MLBlueBoxDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLBlueBoxDemo-Info.plist"; sourceTree = "<group>"; };
+		CD3EB0EC19B042D40056DF76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD3EB0EE19B042D40056DF76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD3EB0F019B042D40056DF76 /* MLBlueBoxDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLBlueBoxDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CD3EB0F119B042D40056DF76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD3EB0F219B042D40056DF76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD3EB0F519B042D40056DF76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD3EB0F719B042D40056DF76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD3EB0F819B042D40056DF76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD3EB0FA19B042D40056DF76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD3EB10019B042D40056DF76 /* MLBlueBoxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLBlueBoxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3EB10119B042D40056DF76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD3EB10919B042D40056DF76 /* MLBlueBoxDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLBlueBoxDemoTests-Info.plist"; sourceTree = "<group>"; };
+		CD3EB10B19B042D40056DF76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD3EB10D19B042D40056DF76 /* MLBlueBoxDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLBlueBoxDemoTests.m; sourceTree = "<group>"; };
+		CD3EB11A19B0442C0056DF76 /* MLBlueBoxView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MLBlueBoxView.m; path = ../../MLBlueBox/MLBlueBoxView.m; sourceTree = "<group>"; };
+		CD3EB11C19B044470056DF76 /* MLBlueBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLBlueBoxView.h; path = ../../MLBlueBox/MLBlueBoxView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD3EB0DC19B042D40056DF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3EB0E519B042D40056DF76 /* CoreGraphics.framework in Frameworks */,
+				CD3EB0E719B042D40056DF76 /* UIKit.framework in Frameworks */,
+				CD3EB0E319B042D40056DF76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3EB0FD19B042D40056DF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3EB10219B042D40056DF76 /* XCTest.framework in Frameworks */,
+				CD3EB10419B042D40056DF76 /* UIKit.framework in Frameworks */,
+				CD3EB10319B042D40056DF76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD3EB0D619B042D40056DF76 = {
+			isa = PBXGroup;
+			children = (
+				CD3EB0E819B042D40056DF76 /* MLBlueBoxDemo */,
+				CD3EB10719B042D40056DF76 /* MLBlueBoxDemoTests */,
+				CD3EB0E119B042D40056DF76 /* Frameworks */,
+				CD3EB0E019B042D40056DF76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3EB0E019B042D40056DF76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3EB0DF19B042D40056DF76 /* MLBlueBoxDemo.app */,
+				CD3EB10019B042D40056DF76 /* MLBlueBoxDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3EB0E119B042D40056DF76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD3EB0E219B042D40056DF76 /* Foundation.framework */,
+				CD3EB0E419B042D40056DF76 /* CoreGraphics.framework */,
+				CD3EB0E619B042D40056DF76 /* UIKit.framework */,
+				CD3EB10119B042D40056DF76 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3EB0E819B042D40056DF76 /* MLBlueBoxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CD3EB11919B044130056DF76 /* Vendor */,
+				CD3EB0F119B042D40056DF76 /* AppDelegate.h */,
+				CD3EB0F219B042D40056DF76 /* AppDelegate.m */,
+				CD3EB0F419B042D40056DF76 /* Main.storyboard */,
+				CD3EB0F719B042D40056DF76 /* ViewController.h */,
+				CD3EB0F819B042D40056DF76 /* ViewController.m */,
+				CD3EB0FA19B042D40056DF76 /* Images.xcassets */,
+				CD3EB0E919B042D40056DF76 /* Supporting Files */,
+			);
+			path = MLBlueBoxDemo;
+			sourceTree = "<group>";
+		};
+		CD3EB0E919B042D40056DF76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD3EB0EA19B042D40056DF76 /* MLBlueBoxDemo-Info.plist */,
+				CD3EB0EB19B042D40056DF76 /* InfoPlist.strings */,
+				CD3EB0EE19B042D40056DF76 /* main.m */,
+				CD3EB0F019B042D40056DF76 /* MLBlueBoxDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD3EB10719B042D40056DF76 /* MLBlueBoxDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3EB10D19B042D40056DF76 /* MLBlueBoxDemoTests.m */,
+				CD3EB10819B042D40056DF76 /* Supporting Files */,
+			);
+			path = MLBlueBoxDemoTests;
+			sourceTree = "<group>";
+		};
+		CD3EB10819B042D40056DF76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD3EB10919B042D40056DF76 /* MLBlueBoxDemoTests-Info.plist */,
+				CD3EB10A19B042D40056DF76 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD3EB11919B044130056DF76 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				CD3EB11C19B044470056DF76 /* MLBlueBoxView.h */,
+				CD3EB11A19B0442C0056DF76 /* MLBlueBoxView.m */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD3EB0DE19B042D40056DF76 /* MLBlueBoxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3EB11119B042D40056DF76 /* Build configuration list for PBXNativeTarget "MLBlueBoxDemo" */;
+			buildPhases = (
+				CD3EB0DB19B042D40056DF76 /* Sources */,
+				CD3EB0DC19B042D40056DF76 /* Frameworks */,
+				CD3EB0DD19B042D40056DF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLBlueBoxDemo;
+			productName = MLBlueBoxDemo;
+			productReference = CD3EB0DF19B042D40056DF76 /* MLBlueBoxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD3EB0FF19B042D40056DF76 /* MLBlueBoxDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3EB11419B042D40056DF76 /* Build configuration list for PBXNativeTarget "MLBlueBoxDemoTests" */;
+			buildPhases = (
+				CD3EB0FC19B042D40056DF76 /* Sources */,
+				CD3EB0FD19B042D40056DF76 /* Frameworks */,
+				CD3EB0FE19B042D40056DF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3EB10619B042D40056DF76 /* PBXTargetDependency */,
+			);
+			name = MLBlueBoxDemoTests;
+			productName = MLBlueBoxDemoTests;
+			productReference = CD3EB10019B042D40056DF76 /* MLBlueBoxDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3EB0D719B042D40056DF76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MercadoLibre;
+				TargetAttributes = {
+					CD3EB0FF19B042D40056DF76 = {
+						TestTargetID = CD3EB0DE19B042D40056DF76;
+					};
+				};
+			};
+			buildConfigurationList = CD3EB0DA19B042D40056DF76 /* Build configuration list for PBXProject "MLBlueBoxDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD3EB0D619B042D40056DF76;
+			productRefGroup = CD3EB0E019B042D40056DF76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3EB0DE19B042D40056DF76 /* MLBlueBoxDemo */,
+				CD3EB0FF19B042D40056DF76 /* MLBlueBoxDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD3EB0DD19B042D40056DF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3EB0FB19B042D40056DF76 /* Images.xcassets in Resources */,
+				CD3EB0ED19B042D40056DF76 /* InfoPlist.strings in Resources */,
+				CD3EB0F619B042D40056DF76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3EB0FE19B042D40056DF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3EB10C19B042D40056DF76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD3EB0DB19B042D40056DF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3EB11B19B0442C0056DF76 /* MLBlueBoxView.m in Sources */,
+				CD3EB0F919B042D40056DF76 /* ViewController.m in Sources */,
+				CD3EB0F319B042D40056DF76 /* AppDelegate.m in Sources */,
+				CD3EB0EF19B042D40056DF76 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3EB0FC19B042D40056DF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3EB10E19B042D40056DF76 /* MLBlueBoxDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD3EB10619B042D40056DF76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3EB0DE19B042D40056DF76 /* MLBlueBoxDemo */;
+			targetProxy = CD3EB10519B042D40056DF76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD3EB0EB19B042D40056DF76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3EB0EC19B042D40056DF76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD3EB0F419B042D40056DF76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3EB0F519B042D40056DF76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD3EB10A19B042D40056DF76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3EB10B19B042D40056DF76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD3EB10F19B042D40056DF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD3EB11019B042D40056DF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD3EB11219B042D40056DF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLBlueBoxDemo/MLBlueBoxDemo-Prefix.pch";
+				INFOPLIST_FILE = "MLBlueBoxDemo/MLBlueBoxDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD3EB11319B042D40056DF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLBlueBoxDemo/MLBlueBoxDemo-Prefix.pch";
+				INFOPLIST_FILE = "MLBlueBoxDemo/MLBlueBoxDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD3EB11519B042D40056DF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MLBlueBoxDemo.app/MLBlueBoxDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLBlueBoxDemo/MLBlueBoxDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MLBlueBoxDemoTests/MLBlueBoxDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD3EB11619B042D40056DF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MLBlueBoxDemo.app/MLBlueBoxDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLBlueBoxDemo/MLBlueBoxDemo-Prefix.pch";
+				INFOPLIST_FILE = "MLBlueBoxDemoTests/MLBlueBoxDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3EB0DA19B042D40056DF76 /* Build configuration list for PBXProject "MLBlueBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3EB10F19B042D40056DF76 /* Debug */,
+				CD3EB11019B042D40056DF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3EB11119B042D40056DF76 /* Build configuration list for PBXNativeTarget "MLBlueBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3EB11219B042D40056DF76 /* Debug */,
+				CD3EB11319B042D40056DF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD3EB11419B042D40056DF76 /* Build configuration list for PBXNativeTarget "MLBlueBoxDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3EB11519B042D40056DF76 /* Debug */,
+				CD3EB11619B042D40056DF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD3EB0D719B042D40056DF76 /* Project object */;
+}

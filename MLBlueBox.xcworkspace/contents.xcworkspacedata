@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:MLBlueBoxDemo/MLBlueBoxDemo.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:MLBlueBox"
+      name = "MLBlueBox">
+      <FileRef
+         location = "group:MLBlueBoxView.h">
+      </FileRef>
+      <FileRef
+         location = "group:MLBlueBoxView.m">
+      </FileRef>
+   </Group>
+</Workspace>
