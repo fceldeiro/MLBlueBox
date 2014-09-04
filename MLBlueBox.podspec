@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MLBlueBox"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "MLBlueBox."
 
   s.description  = <<-DESC
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "6.0"
 
-  s.source       = { :git => "https://github.com/fceldeiro/MLBlueBox.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/fceldeiro/MLBlueBox.git", :tag => "0.0.4" }
 
   s.public_header_files = 'MLBlueBox/*.h'
   s.source_files  = "Classes", "MLBlueBox/*.{h,m}"
