@@ -14,4 +14,7 @@
          location = "group:MLBlueBoxView.m">
       </FileRef>
    </Group>
+   <FileRef
+      location = "group:MLBlueBox.podspec">
+   </FileRef>
 </Workspace>
