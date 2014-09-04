@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MLBlueBox"
-  s.version      = s.version.to_s
+  s.version      = "0.0.6"
   s.summary      = "MLBlueBox."
 
   s.description  = <<-DESC
