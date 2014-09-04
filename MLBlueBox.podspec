@@ -89,6 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
+  s.public_header_files = 'MLBlueBox/*.h'
   s.source_files  = "Classes", "MLBlueBox/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
